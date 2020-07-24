@@ -48,6 +48,7 @@ Lets first check the cloud-images.
 `lxc remote list`
 
 To download a specific image, launch by passing the name
+
 `lxc launch ubuntu:18.04` creates a random name for container
 
 `lxc launch ubuntu:18.04 myubuntu1` creates with a name 'myubuntu1'
