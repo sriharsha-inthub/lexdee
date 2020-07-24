@@ -49,7 +49,9 @@ Lets first check the cloud-images.
 
 To download a specific image, launch by passing the name
 `lxc launch ubuntu:18.04` creates a random name for container
+
 `lxc launch ubuntu:18.04 myubuntu1` creates with a name 'myubuntu1'
+
 `lxc launch images:centos/7 mycentos1` format for other than ubuntu
 
 Check list of image slocally available
