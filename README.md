@@ -1,6 +1,10 @@
 # LEXDEE
 
 ## Installing LXD from packages
+Add the current user to sudo if not already, to avoid prefix'g sudo for every lxc command
+> usermod -aG sudo mintman
+
+
 
 Lxd is by defaut available on new versions of releases.
 `lxd --version`
@@ -25,7 +29,7 @@ View snap info
 Now check the lxd & lxc version
 ```
 lxd --version
-lxc version
+lxc --version
 ```
 
 And their locations
